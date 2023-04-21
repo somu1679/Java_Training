@@ -2,9 +2,10 @@ package calculator;
 
 public class Maths {
 
-	public void add(int a, int b) {
+	public int add(int a, int b) {
 		int result = a+b;
 		System.out.println("The addition value is "  + result);
+		return result;
 
 	}
 	
@@ -26,15 +27,19 @@ public class Maths {
 
 	}
 	
-	public void setSquare(int a) {
+	public void setSquare(int a,int b) {
 		int result = a*a;
-		System.out.println("The Sqaure value of a is "  + result);
+		System.out.println("The Sqaure value of first number is "  + result);
+		int result1 = b*b;
+		System.out.println("The Sqaure value of second number is "  + result1);
 
 	}
 	
-	public void setCube(int a) {
+	public void setCube(int a, int b) {
 		int result = a*a*a;
-		System.out.println("The Cube value of a is "  + result);
+		System.out.println("The Cube value of first number is "  + result);
+		int result1 = b*b*b;
+		System.out.println("The Cube value of second number is "  + result1);
 
 	}
 
